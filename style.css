@@ -1,0 +1,21 @@
+
+
+
+body {
+    font-family: 'VT323', monospace;
+    background-color: lightcoral;
+    margin-left: 50px; 
+    background-image:url("/images.eclipse.jpg");    
+    background-color: rgba(255, 255, 255, 0.1);
+    background-blend-mode: lighten;
+}
+
+div {
+    font-size: 300%;
+    text-align: center;
+    color: lightcyan;
+}
+
+a {
+    color: lightpink
+}
