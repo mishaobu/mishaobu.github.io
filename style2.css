@@ -11,7 +11,7 @@ body {
 }
 
 div {
-    font-size: 300%;
+    font-size: 100%;
     text-align: center;
     color: lightcyan;
 }
@@ -32,21 +32,28 @@ a {
 }
 
 .row {
+    display: -ms-flexbox; /* IE 10 */
     display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
     flex-wrap: wrap;
     padding: 0 4px;
   }
   
-  /* Create four equal columns that sits next to each other */
+  /* Create two equal columns that sits next to each other */
   .column {
-    flex: 25%;
-    max-width: 25%;
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
     padding: 0 4px;
   }
   
   .column img {
     margin-top: 8px;
     vertical-align: middle;
-    width: 100%;
   }
   
+.forcesize {
+    width: 300px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
