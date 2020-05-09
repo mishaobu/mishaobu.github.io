@@ -3,6 +3,8 @@ import Home from './Home'
 import Images from './Images'
 import Links from './Links'
 import Projects from './Projects'
+import FeedbackPage from './FeedbackPage'
+
 
 export default class Body extends Component {
     displayContent = () => {
@@ -16,8 +18,11 @@ export default class Body extends Component {
         else if (activeTab === 3) {
             return <Images/>;
         }
-        else {
+        else if (activeTab === 4) {
             return <Projects/>;
+        }
+        else if (activeTab === 5) {
+            return <FeedbackPage />
         }
     }
 

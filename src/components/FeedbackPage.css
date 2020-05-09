@@ -1,0 +1,101 @@
+p {
+    text-align: left;
+    margin-left: 2%;
+  }
+
+  input[type = 'text'] {
+    width: 50%;
+    float: right; 
+
+    margin-right: 5%;
+    background-color: lightpink;
+    padding: 8px 8px;
+  }
+
+  input[type = 'text']:focus {
+      background-color: lightblue;
+  }
+
+  input[type="radio"] {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  input[name = "message"] {
+    margin-left: 10%;
+    margin-bottom: 10px;
+    height: 150px;
+    resize: none;
+  }
+
+  
+  textarea[name = "message"] {
+    margin-left: 10%;
+    margin-bottom: 10px;
+    height: 150px;
+    resize: none;
+  }
+
+  textarea[type = 'text'] {
+    width: 50%;
+    float: right; 
+
+    margin-right: 5%;
+    background-color: lightpink;
+    padding: 8px 8px;
+  }
+
+  textarea[type = 'text']:focus {
+      background-color: lightblue;
+  }
+
+
+  button[type = "submit"]{
+    size: 20%;
+  }
+
+
+  button[type = "submit"]:hover {
+    color: lightblue;
+  }
+
+  .mainForm {
+      float: left;
+      width: 60%;
+  }
+
+  .displayResponses {
+      /* float: left; */
+      /* margin-top: 10%; */
+      top: 20%;
+      left: 65%;
+      width: 30%;
+      height: 60%;
+      position: fixed;
+      overflow-x: hidden;
+      
+      overflow-y: scroll;
+      font-size: small;
+      margin: 0;
+      /* -ms-transform: translateY(30%);
+      transform: translateY(30%);
+       */
+  }
+
+  .entry { 
+      display: block;
+  }
+
+  .entry { 
+    display: block;
+}
+
+.center {
+    text-align: center;
+}
+
+.italics {
+    font-style: italic;
+    font-size: smaller;
+    text-align: center;
+}
