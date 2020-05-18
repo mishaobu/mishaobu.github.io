@@ -68,8 +68,10 @@ class Form extends Component {
   }
 
   componentDidMount() {
-    firebase.initializeApp(config);
-    let ref = firebase.database().ref("messages");
+    if (!firebase.apps.length) {
+      firebase.initializeApp(config)
+   } 
+       let ref = firebase.database().ref("messages");
     ref.on("value", (snapshot) => {
       let newState = [];
       const data = snapshot.val();

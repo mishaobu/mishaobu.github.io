@@ -82,6 +82,13 @@ p {
        */
   }
 
+  /* .displayResponses::-webkit-scrollbar-thumb
+  {
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+      background-color: #555;
+  } */
+
   .entry { 
       display: block;
   }
@@ -98,4 +105,20 @@ p {
     font-style: italic;
     font-size: smaller;
     text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

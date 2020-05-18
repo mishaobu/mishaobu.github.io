@@ -4,7 +4,7 @@ import Images from './Images'
 import Links from './Links'
 import Projects from './Projects'
 import FeedbackPage from './FeedbackPage'
-
+import MoviePage from './MoviePage'
 
 export default class Body extends Component {
     displayContent = () => {
@@ -23,6 +23,9 @@ export default class Body extends Component {
         }
         else if (activeTab === 5) {
             return <FeedbackPage />
+        }
+        else if (activeTab == 6) {
+            return <MoviePage />
         }
     }
 

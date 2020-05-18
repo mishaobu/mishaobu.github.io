@@ -52,6 +52,9 @@ export default class blApp extends Component {
             }, {
                 id: 5,
                 title: "Feedback"
+            }, {
+                id: 6,
+                title: "Movies"
             }
           ]
         return (
