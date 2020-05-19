@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import movies from './data/movies.js';
-import ModalImage from "react-modal-image";
-import MovieBlock2 from "./MovieBlock2";
+import MovieBlock from "./MovieBlock";
 import axios from 'axios';
 
 
@@ -34,9 +33,9 @@ export default class MoviePage extends Component {
 
     render() {
         return(
-        <div>
+        <div className = "movieBlockDiv">
             {this.state.movies.map((movieJSON, index) => (
-                <MovieBlock2 key={index} json={movieJSON} />
+                <MovieBlock key={index} json={movieJSON} />
             ))}
         </div>
         )

@@ -103,7 +103,7 @@ a:hover {
       opacity: 0.8;
   }
 
-  .movieBlock {
+  /* .movieBlock {
       width: 200px;
     float: left;
       border-style: solid;
@@ -120,13 +120,11 @@ a:hover {
   
   }
 
-  #movieBlockDiv { 
+  .movieBlockDiv { 
     display: inline-block;
-    width:300px; /* or whatever width you want. */
-    max-width:300px; /* or whatever width you want. */
+    width:100px; 
     max-height:300px;
     border-style: solid;
-    border-color: blue;
     color: green;
     overflow: auto;
     clear: both;
@@ -135,13 +133,36 @@ a:hover {
 
 
 
-    display: -ms-flexbox; /* IE 10 */
+    display: -ms-flexbox; 
     display: flex;
-    -ms-flex-wrap: wrap; /* IE 10 */
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding: 0 4px;
 
-    -ms-flex: 50%; /* IE 10 */
+    -ms-flex: 50%; 
     flex: 50%;
     padding: 0 4px;
+  } */
+
+  .movieBlockDiv {
+    display: flex;
+    flex-wrap: wrap;
   }
+
+  .movieBlock {
+    padding-top: 40px;
+    width: 220px;
+    padding-left: 15px;
+  }
+
+  .movieBlock:hover {
+    opacity: 50%;
+    cursor: pointer;
+  }
+
+
+/* @media screen and (min-width: 100px) {}
+  .movieBlock {
+    width: 300px;
+    padding-left: 30px;
+  } */
