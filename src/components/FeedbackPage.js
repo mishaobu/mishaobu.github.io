@@ -131,16 +131,7 @@ class Form extends Component {
               />{" "}
             </p>
 
-            {/* <p>
-              {" "}
-              Message:
-              <input
-                type="text"
-                name="message"
-                onChange={this.handleChange}
-                value={this.state.message}
-              />{" "}
-            </p> */}
+
             <p>
               {" "}
               Message:
@@ -154,12 +145,12 @@ class Form extends Component {
             </p>
 
 
-     	                <p>Make message private? <br/>
-      	                <input type="radio" id="yes" name="visible" onChange={this.handleChange} value={true}/>
-      	                <label for="yes">Yes</label>
-      					<input type="radio" id="no" name="visible" onChange={this.handleChange} value={false}/>
-      					<label for="no">No</label>
-                        </p>
+                  <p>Make message private? <br/>
+                    <input type="radio" id="yes" name="visible" onChange={this.handleChange} value={true}/>
+                    <label for="yes">Yes</label>
+                <input type="radio" id="no" name="visible" onChange={this.handleChange} value={false}/>
+                <label for="no">No</label>
+                    </p>
 
             <p>
               {" "}
