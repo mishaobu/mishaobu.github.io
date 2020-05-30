@@ -1,7 +1,7 @@
 import React, { Component } from "react";
+
 import config from "../config";
 import "./FeedbackPage.css"
-
 const firebase = require("firebase");
 
 class Form extends Component {

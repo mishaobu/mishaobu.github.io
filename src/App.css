@@ -32,7 +32,7 @@
     color: lightcyan;
 }
 
-li {
+/* li {
     display: block;
     margin: auto;
     font-size:175%
@@ -46,7 +46,7 @@ ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-}
+} */
 
 a {
     color: lightpink;
@@ -160,9 +160,38 @@ a:hover {
     cursor: pointer;
   }
 
+  .deleteMovieButton { 
+    padding: 0;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'VT323', monospace;
+}
+
+/* .movieAddForm {
+  margin: auto;
+  text-align: left;
+} */
+
+
 
 /* @media screen and (min-width: 100px) {}
   .movieBlock {
     width: 300px;
     padding-left: 30px;
   } */
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: left;
+  }
+
+  .navbar {
+    font-size: 20px;
+  }
